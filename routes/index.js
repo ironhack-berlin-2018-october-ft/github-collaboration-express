@@ -11,11 +11,11 @@ router.get('/ironhackers/nele', (req, res, next) => {
 });
 
 router.get('/ironhackers/carlos', (req, res, next) => {
-  res.render('carlos');
+  res.render('ironhackers/carlos');
 });
 
-router.get('/ironhack/ziggy', (req, res, next) => {
-  res.render('/ziggy');
+router.get('/ironhackers/ziggy', (req, res, next) => {
+  res.render('ironhackers/ziggy');
 });
 
 router.get('/ironhackers/maxence', (req, res, next) => {
