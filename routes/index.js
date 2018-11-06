@@ -12,4 +12,8 @@ router.get('/ironhackers/matthias', (req, res, next) => {
 
 
 
+router.get('/ironhackers/maxence', (req, res, next) => {
+  res.render('ironhackers/maxence');
+});
+
 module.exports = router;
