@@ -7,6 +7,12 @@ router.get('/', (req, res, next) => {
 });
 
 <<<<<<< HEAD
+router.get('/ironhackers/nele', (req, res, next) => {
+  res.render('ironhackers/nele');
+});
+
+=======
+<<<<<<< HEAD
 router.get('/ironhackers/carlos', (req, res, next) => {
   res.render('carlos');
 =======
@@ -22,6 +28,7 @@ router.get('/ironhackers/feli', (req, res, next) => {
   res.render('ironhackers/feli');
 >>>>>>> 2e9de92079f6a08ed6841f0c2ca6e5da1d8187d5
 });
+>>>>>>> 953a012ae0db7ae3a7ca487cf5829fc12ed822af
 
 router.get('/ironhackers/axel', (req, res, next) => {
   res.render('ironhackers/axel');
