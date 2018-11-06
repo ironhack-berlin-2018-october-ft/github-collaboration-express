@@ -20,6 +20,10 @@ router.get("/ironhackers/nele", (req, res, next) => {
   res.render("ironhackers/nele");
 });
 
+router.get("/ironhackers/anna", (req, res, next) => {
+  res.render("ironhackers/anna");
+});
+
 router.get("/ironhackers/carlos", (req, res, next) => {
   res.render("carlos");
 });
