@@ -6,8 +6,13 @@ router.get('/', (req, res, next) => {
   res.render('index');
 });
 
+<<<<<<< HEAD
 router.get('/ironhack/ziggy', (req, res, next) => {
   res.render('/ziggy');
+=======
+router.get('/ironhackers/maxence', (req, res, next) => {
+  res.render('ironhackers/maxence');
+>>>>>>> 46a86bd6a667b08992ed50649a7e957eb152336e
 });
 
 module.exports = router;
