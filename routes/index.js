@@ -14,8 +14,6 @@ router.get("/ironhackers/gutu", (req, res, next) => {
   res.render("gutu");
 });
 
-module.exports = router;
-
 router.get("/ironhackers/nele", (req, res, next) => {
   res.render("ironhackers/nele");
 });
@@ -56,7 +54,7 @@ router.get('/ironhackers/feli', (req, res, next) => {
 router.get('/ironhackers/samanta', (req, res, next) => {
   res.render('ironhackers/samanta');
 });
-module.exports = router;
+
 router.get("/ironhackers/feli", (req, res, next) => {
   res.render("ironhackers/feli");
 });
