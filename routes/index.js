@@ -16,6 +16,18 @@ router.get("/ironhackers/nele", (req, res, next) => {
   res.render("ironhackers/nele");
 });
 
+router.get('/ironhackers/carlos', (req, res, next) => {
+  res.render('carlos');
+})
+router.get('/ironhack/ziggy', (req, res, next) => {
+  res.render('/ziggy');
+})
+router.get('/ironhackers/maxence', (req, res, next) => {
+  res.render('ironhackers/maxence');
+})
+router.get('/ironhackers/carlos', (req, res, next) => {
+  res.render('carlos');
+})
 router.get("/ironhackers/anna", (req, res, next) => {
   res.render("ironhackers/anna");
 });
@@ -32,6 +44,15 @@ router.get("/ironhackers/maxence", (req, res, next) => {
   res.render("ironhackers/maxence");
 });
 
+router.get('/ironhackers/feli', (req, res, next) => {
+  res.render('ironhackers/feli');
+})
+
+
+router.get('/ironhackers/samanta', (req, res, next) => {
+  res.render('ironhackers/samanta');
+});
+module.exports = router;
 router.get("/ironhackers/feli", (req, res, next) => {
   res.render("ironhackers/feli");
 });
