@@ -5,10 +5,9 @@ const router = express.Router();
 router.get("/", (req, res, next) => {
   res.render("index");
 });
-router.get('/ironhackers/matthias', (req, res, next) => {
-  res.render('matthias');
+router.get("/ironhackers/matthias", (req, res, next) => {
+  res.render("matthias");
 });
-
 
 router.get("/ironhackers/gutu", (req, res, next) => {
   res.render("gutu");
@@ -38,8 +37,8 @@ router.get("/ironhackers/carlos", (req, res, next) => {
   res.render("carlos");
 });
 
-router.get("/ironhack/ziggy", (req, res, next) => {
-  res.render("/ziggy");
+router.get("/ironhackers/ziggy", (req, res, next) => {
+  res.render("ironhackers/ziggy");
 });
 
 router.get("/ironhackers/maxence", (req, res, next) => {
