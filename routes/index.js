@@ -5,6 +5,10 @@ const router = express.Router();
 router.get("/", (req, res, next) => {
   res.render("index");
 });
+router.get('/ironhackers/matthias', (req, res, next) => {
+  res.render('matthias');
+});
+
 
 router.get("/ironhackers/gutu", (req, res, next) => {
   res.render("gutu");
