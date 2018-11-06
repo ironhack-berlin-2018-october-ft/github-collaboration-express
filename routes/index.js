@@ -4,6 +4,11 @@ const router = express.Router();
 router.get("/", (req, res, next) => {
   res.render("index");
 });
+
+router.get("/ironhackers/maxence", (req, res, next) => {
+  res.render("ironhackers/maxence");
+});
+
 router.get("/ironhackers/matthias", (req, res, next) => {
   res.render("matthias");
 });
@@ -22,27 +27,12 @@ router.get("/ironhackers/carlos", (req, res, next) => {
 router.get("/ironhack/ziggy", (req, res, next) => {
   res.render("/ziggy");
 });
-router.get("/ironhackers/maxence", (req, res, next) => {
-  res.render("ironhackers/maxence");
-});
-router.get("/ironhackers/carlos", (req, res, next) => {
-  res.render("carlos");
-});
+
+
 router.get("/ironhackers/anna", (req, res, next) => {
   res.render("ironhackers/anna");
 });
 
-router.get("/ironhackers/carlos", (req, res, next) => {
-  res.render("carlos");
-});
-
-router.get("/ironhackers/ziggy", (req, res, next) => {
-  res.render("ironhackers/ziggy");
-});
-
-router.get("/ironhackers/maxence", (req, res, next) => {
-  res.render("ironhackers/maxence");
-});
 
 router.get("/ironhackers/feli", (req, res, next) => {
   res.render("ironhackers/feli");
@@ -50,9 +40,6 @@ router.get("/ironhackers/feli", (req, res, next) => {
 
 router.get("/ironhackers/samanta", (req, res, next) => {
   res.render("ironhackers/samanta");
-});
-router.get("/ironhackers/feli", (req, res, next) => {
-  res.render("ironhackers/feli");
 });
 
 router.get("/ironhackers/khalil", (req, res, next) => {
