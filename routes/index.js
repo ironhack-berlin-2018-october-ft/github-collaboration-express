@@ -6,4 +6,9 @@ router.get('/', (req, res, next) => {
   res.render('index');
 });
 
+router.get('/ironhackers/nele', (req, res, next) => {
+  res.render('ironhackers/nele');
+});
+
+
 module.exports = router;
