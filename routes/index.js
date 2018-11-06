@@ -50,4 +50,8 @@ router.get("/ironhackers/axel", (req, res, next) => {
   res.render("ironhackers/axel");
 });
 
+router.get("/ironhackers/eullin", (req, res, next) => {
+  res.render("ironhackers/eullin");
+});
+
 module.exports = router;
